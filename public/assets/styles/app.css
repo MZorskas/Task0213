@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background: lightgray; }
+
+.nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 61px;
+  top: 0; }
+  .nav__left {
+    min-width: 25%;
+    text-align: center; }
+    .nav__left a {
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      font-size: 20px; }
+  .nav__middle {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    justify-content: center; }
+    .nav__middle ul {
+      padding: 0px;
+      margin: auto;
+      margin-right: 20px;
+      display: inline;
+      text-decoration: none;
+      align-items: right; }
+      .nav__middle ul li {
+        display: inline; }
+        .nav__middle ul li a {
+          text-decoration: none;
+          padding: 8px;
+          color: black; }
+          .nav__middle ul li a:hover {
+            color: orange;
+            transition: 0.3s; }
+      .nav__middle ul .active {
+        color: orange; }
+  .nav__right {
+    min-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: left; }
+    .nav__right a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: orange; }
+      .nav__right a img {
+        width: 30px;
+        height: auto; }
+
+.main {
+  position: relative;
+  margin-top: 61px;
+  height: 100%;
+  width: 100%;
+  background-color: red; }
+  .main .bgimage {
+    height: 900px;
+    width: 100%; }
+    .main .bgimage img {
+      height: 900px;
+      width: 100%; }
+
