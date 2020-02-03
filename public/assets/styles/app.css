@@ -77,20 +77,50 @@ body {
         text-transform: uppercase;
         border: 3px solid white;
         padding: 2rem 4rem; }
+  .main .about {
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    min-height: 800px;
+    width: 80%; }
+    .main .about__image {
+      background-color: white;
+      flex-grow: 1;
+      object-position: 50% 50%;
+      width: 500px;
+      object-fit: cover; }
+    .main .about__text {
+      background-color: white;
+      flex-grow: 1;
+      color: white;
+      width: 500px; }
+    .main .about h1 {
+      position: absolute;
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      text-transform: uppercase;
+      padding: 2rem 4rem; }
 
 .media {
   position: fixed;
   right: 0;
-  width: 20px;
+  width: 22.5px;
   height: auto;
   z-index: 999;
   top: 50%;
   transform: translate(-50%, -50%);
   margin: 0; }
   .media ul {
-    color: red;
+    color: white;
     font-size: 20px;
     list-style-type: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
+    .media ul li .fab:hover {
+      color: orange;
+      transition: 0.3s; }
 
