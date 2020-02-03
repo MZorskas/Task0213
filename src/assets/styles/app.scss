@@ -2,37 +2,44 @@
 
 body {
     margin: 0;
-    background: lightgray;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    font-family: 'Questrial', sans-serif;
+    height: auto;
 }
 
 .nav {
     position: fixed;
     z-index: 999;
     width: 100%;
-    background: white;
+    background: black;
     display: flex;
     align-items: center;
     height: 61px;
     top: 0;
+    box-shadow: 0 3px 2px -2px rgb(206, 110, 0);
     &__left{
-        min-width:25%;
+        min-width:30%;
         text-align: center;
         a{
         text-decoration: none;
-        color: black;
+        color: Orange;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        font:  700 30px/1.4em Oswald;
         }
     }
-    &__middle{
+    &__right{
         display: flex;
-        min-width:50%;
+        min-width:70%;
         align-items: center;
-        justify-content: center; 
+        justify-content: right; 
+        font-family: 'Questrial', sans-serif;
             ul{
             padding: 0px;
             margin:auto;
-            margin-right: 20px;
+            margin-right: 60px;
             display:inline;
             text-decoration: none;
             align-items: right;
@@ -40,8 +47,8 @@ body {
                 display: inline;
                     a{
                     text-decoration: none;
-                    padding: 8px;
-                    color: black;
+                    padding: 40px;
+                    color: white;
                     &:hover{
                         color: orange;
                         transition: 0.3s;
@@ -49,37 +56,62 @@ body {
                     }
                  }
                 .active{color: orange;}
-                
+               
             }
         }
-    &__right{
-        min-width:25%;
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        a{
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: orange;
-            img { width: 30px; height: auto; }
-        }
-    }
 }
 
 .main{
-    position: relative;
     margin-top:61px;
-    height:100%;
+    height:auto;
     width:100%;
-    background-color: red;
-    .bgimage{
-        height:900px;
+    .card{
+        position: relative;
         width:100%;
-        img{
-            height:900px;
+        margin: o;
+        padding: o;
+        margin-top: 61px;
+        text-align: center;
+        &__image{
+            height:850px;
             width:100%;
-
+            object-fit: cover;
+        }
+        &__text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            h1{
+                font-family: 'Oswald', sans-serif;
+                font-size: 50px;
+                text-transform: uppercase;
+                border: 3px solid white;
+                padding: 2rem 4rem;
+            }
         }
     }
+    
+}
+
+.media{
+    position: fixed;
+    right: 0;
+    width:20px;
+    height:auto;
+    z-index: 999;
+    top: 50%;
+    transform: translate(-50%, -50%,);
+    margin: 0;
+        ul{
+        color:red;
+        font-size: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li{
+            
+        }
+        }
 }
