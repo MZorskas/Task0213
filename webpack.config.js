@@ -26,7 +26,7 @@ module.exports = {
         options: {
           name: '[name].[ext]',
           outputPath: 'assets/images',
-          publicPath: './images'
+          publicPath: '../images'
         },
       }, 
       { test: /\.hbs$/, loader: "handlebars-loader" }
