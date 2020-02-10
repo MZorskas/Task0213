@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="assets/styles/app.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/750f24e27c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    
 <link href="assets/styles/app.css" rel="stylesheet"></head>
 
 <body>
   <nav class="nav">
     <div class='nav__left'>
-      <a href="#" ><span>PIZZALAND</span></a>
+      <a href="#" ><span>BLABLABLABLA</span></a>
     </div>
     <div class="nav__right">
               <ul>
@@ -37,25 +41,97 @@
         <li><i class="fab fa-snapchat-ghost"></i></li>
       </ul>
   </div>
-  <main class="main">
-    <div class="card">
-      <img class="card__image" src="assets/images/fireplace-1082342.jpg" alt="">
-      <div class="card__text"><h1>BLABLABLABLA</h1></div>
-    </div>
-    <article class="about">
-      <h1>OUR STORY</h1>
-      <div><img class="about__image" src="assets/images/about.jpg" alt="x"></div>
-
-      <div class="about__text"><p>I'm a paragraph. Click here to add your own text and edit me.
+  <div class="bgbox">
+      <h1>BLABLABLABLA</h1>
+  </div>
+     <article class="about">
+       <div class="box box1"><img class="about__image" src="assets/images/about.jpg" alt="x"></div>
+       <div class="box box2">I'm a paragraph. Click here to add your own text and edit me.
          It’s easy. Just click “Edit Text” or double click me and you can start adding your own 
          content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
           I’m a great place for you to tell a story and let your users know a little more about you.
 I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double 
-click me and you can start adding your own content and make changes to the font. </p></div>
+click me and you can start adding your own content and make changes to the font.
+I'm a paragraph. Click here to add your own text and edit me.</div>
+       <div class="box box3">
+         <h1 class="font_2">Our story</h1>
+         </div>
     </article>
-  </main>
+  
+  <section class="gallery-section">
+    <div class="inner-width">
+      <h1>Gallery</h1>
+      <div class="border"></div>
+      <div class="gallery">
 
-  </main>
+          <a href="assets/images/1.jpg" class="image">
+          <img src="assets/images/1.jpg" alt="Image 1">
+          </a>
+
+          <a href="assets/images/2.jpg" class="image">
+          <img src="assets/images/2.jpg" alt="Image 2">
+          </a>
+
+          <a href="assets/images/3.jpg" class="image">
+          <img src="assets/images/3.jpg" alt="Image 3">
+          </a>
+
+          <a href="assets/images/4.jpg" class="image">
+          <img src="assets/images/4.jpg" alt="Image 4">
+          </a>
+
+          <a href="assets/images/5.jpg" class="image">
+          <img src="assets/images/5.jpg" alt="Image 5">
+          </a>
+
+          <a href="assets/images/6.jpg" class="image">
+          <img src="assets/images/6.jpg" alt="Image 6">
+          </a>
+
+          <a href="assets/images/7.jpg" class="image">
+          <img src="assets/images/7.jpg" alt="Image 7">
+          </a>
+
+          <a href="assets/images/8.jpg" class="image">
+          <img src="assets/images/8.jpg" alt="Image 8">
+          </a>
+
+      </div>
+    </div>
+
+  </section>
+<div class="apply">
+
+  <h1>Contact Us</h1>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+
+<footer class="footer">
+  <div class="footer__left">
+      &copy; blablablabla | Designed by Marius 
+  </div>
+  
+  <div class="footer__right">
+
+  </div>
+</footer>
+
+  <script>
+      $(".gallery").magnificPopup({
+        delegate:'a',
+        type: 'image',
+        gallery:{
+          enabled: true
+        }
+      });
+  </script>
 <script type="text/javascript" src="main.js"></script></body>
 
 </html>

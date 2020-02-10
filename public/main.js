@@ -360,66 +360,6 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/assets/images/about.jpg":
-/*!*************************************!*\
-  !*** ./src/assets/images/about.jpg ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/about.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/about.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/account_circle-24px.svg":
-/*!***************************************************!*\
-  !*** ./src/assets/images/account_circle-24px.svg ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/account_circle-24px.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/account_circle-24px.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/background.gif":
-/*!******************************************!*\
-  !*** ./src/assets/images/background.gif ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/background.gif\");\n\n//# sourceURL=webpack:///./src/assets/images/background.gif?");
-
-/***/ }),
-
-/***/ "./src/assets/images/background1.jpg":
-/*!*******************************************!*\
-  !*** ./src/assets/images/background1.jpg ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/background1.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/background1.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/portrait1.jpg":
-/*!*****************************************!*\
-  !*** ./src/assets/images/portrait1.jpg ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/portrait1.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/portrait1.jpg?");
-
-/***/ }),
-
 /***/ "./src/assets/styles/app.scss":
 /*!************************************!*\
   !*** ./src/assets/styles/app.scss ***!
@@ -431,6 +371,18 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/assets/styles/fireplace.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/styles/fireplace.jpg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/fireplace.jpg\");\n\n//# sourceURL=webpack:///./src/assets/styles/fireplace.jpg?");
+
+/***/ }),
+
 /***/ "./src/index.hbs":
 /*!***********************!*\
   !*** ./src/index.hbs ***!
@@ -438,7 +390,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>  \\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Questrial&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/styles/app.css\\\">\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\\\">\\r\\n    <script src=\\\"https://kit.fontawesome.com/750f24e27c.js\\\" crossorigin=\\\"anonymous\\\"></script>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n  <nav class=\\\"nav\\\">\\r\\n    <div class='nav__left'>\\r\\n      <a href=\\\"#\\\" ><span>PIZZALAND</span></a>\\r\\n    </div>\\r\\n    <div class=\\\"nav__right\\\">\\r\\n              <ul>\\r\\n                <li><a href=\\\"#\\\">Home</a></li>\\r\\n                <li><a href=\\\"#\\\">About</a></li>\\r\\n                <li><a href=\\\"#\\\">Gallery</a></li>\\r\\n                <li><a href=\\\"#\\\">Apply</a></li>\\r\\n                <li><a href=\\\"#\\\">Contact</a></li>\\r\\n              </ul>\\r\\n    </div>\\r\\n  </nav>\\r\\n  <div class=\\\"media\\\">\\r\\n      <ul>\\r\\n        <li><i class=\\\"fab fa-facebook-f\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-twitter\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-instagram\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-youtube\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-snapchat-ghost\\\"></i></li>\\r\\n      </ul>\\r\\n  </div>\\r\\n  <main class=\\\"main\\\">\\r\\n    <div class=\\\"card\\\">\\r\\n      <img class=\\\"card__image\\\" src=\\\"assets/images/fireplace-1082342.jpg\\\" alt=\\\"\\\">\\r\\n      <div class=\\\"card__text\\\"><h1>BLABLABLABLA</h1></div>\\r\\n    </div>\\r\\n    <article class=\\\"about\\\">\\r\\n      <h1>OUR STORY</h1>\\r\\n      <div><img class=\\\"about__image\\\" src=\\\"assets/images/about.jpg\\\" alt=\\\"x\\\"></div>\\r\\n\\r\\n      <div class=\\\"about__text\\\"><p>I'm a paragraph. Click here to add your own text and edit me.\\r\\n         It’s easy. Just click “Edit Text” or double click me and you can start adding your own \\r\\n         content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.\\r\\n          I’m a great place for you to tell a story and let your users know a little more about you.\\r\\nI'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double \\r\\nclick me and you can start adding your own content and make changes to the font. </p></div>\\r\\n    </article>\\r\\n  </main>\\r\\n\\r\\n  </main>\\r\\n</body>\\r\\n\\r\\n</html>\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/index.hbs?");
+eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>  \\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Questrial&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/styles/app.css\\\">\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\\\">\\r\\n    <script src=\\\"https://kit.fontawesome.com/750f24e27c.js\\\" crossorigin=\\\"anonymous\\\"></script>\\r\\n    <script src=\\\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\\\"></script>\\r\\n    <script src=\\\"https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js\\\"></script>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css\\\">\\r\\n    \\r\\n</head>\\r\\n\\r\\n<body>\\r\\n  <nav class=\\\"nav\\\">\\r\\n    <div class='nav__left'>\\r\\n      <a href=\\\"#\\\" ><span>BLABLABLABLA</span></a>\\r\\n    </div>\\r\\n    <div class=\\\"nav__right\\\">\\r\\n              <ul>\\r\\n                <li><a href=\\\"#\\\">Home</a></li>\\r\\n                <li><a href=\\\"#\\\">About</a></li>\\r\\n                <li><a href=\\\"#\\\">Gallery</a></li>\\r\\n                <li><a href=\\\"#\\\">Apply</a></li>\\r\\n                <li><a href=\\\"#\\\">Contact</a></li>\\r\\n              </ul>\\r\\n    </div>\\r\\n  </nav>\\r\\n  <div class=\\\"media\\\">\\r\\n      <ul>\\r\\n        <li><i class=\\\"fab fa-facebook-f\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-twitter\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-instagram\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-youtube\\\"></i></li>\\r\\n        <li><i class=\\\"fab fa-snapchat-ghost\\\"></i></li>\\r\\n      </ul>\\r\\n  </div>\\r\\n  <div class=\\\"bgbox\\\">\\r\\n      <h1>BLABLABLABLA</h1>\\r\\n  </div>\\r\\n     <article class=\\\"about\\\">\\r\\n       <div class=\\\"box box1\\\"><img class=\\\"about__image\\\" src=\\\"assets/images/about.jpg\\\" alt=\\\"x\\\"></div>\\r\\n       <div class=\\\"box box2\\\">I'm a paragraph. Click here to add your own text and edit me.\\r\\n         It’s easy. Just click “Edit Text” or double click me and you can start adding your own \\r\\n         content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.\\r\\n          I’m a great place for you to tell a story and let your users know a little more about you.\\r\\nI'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double \\r\\nclick me and you can start adding your own content and make changes to the font.\\r\\nI'm a paragraph. Click here to add your own text and edit me.</div>\\r\\n       <div class=\\\"box box3\\\">\\r\\n         <h1 class=\\\"font_2\\\">Our story</h1>\\r\\n         </div>\\r\\n    </article>\\r\\n  \\r\\n  <section class=\\\"gallery-section\\\">\\r\\n    <div class=\\\"inner-width\\\">\\r\\n      <h1>Gallery</h1>\\r\\n      <div class=\\\"border\\\"></div>\\r\\n      <div class=\\\"gallery\\\">\\r\\n\\r\\n          <a href=\\\"assets/images/1.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/1.jpg\\\" alt=\\\"Image 1\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/2.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/2.jpg\\\" alt=\\\"Image 2\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/3.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/3.jpg\\\" alt=\\\"Image 3\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/4.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/4.jpg\\\" alt=\\\"Image 4\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/5.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/5.jpg\\\" alt=\\\"Image 5\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/6.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/6.jpg\\\" alt=\\\"Image 6\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/7.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/7.jpg\\\" alt=\\\"Image 7\\\">\\r\\n          </a>\\r\\n\\r\\n          <a href=\\\"assets/images/8.jpg\\\" class=\\\"image\\\">\\r\\n          <img src=\\\"assets/images/8.jpg\\\" alt=\\\"Image 8\\\">\\r\\n          </a>\\r\\n\\r\\n      </div>\\r\\n    </div>\\r\\n\\r\\n  </section>\\r\\n<div class=\\\"apply\\\">\\r\\n\\r\\n  <h1>Contact Us</h1>\\r\\n  <div class=\\\"border\\\"></div>\\r\\n  <form class=\\\"contact-form\\\" action=\\\"index.html\\\" method=\\\"post\\\">\\r\\n    <input type=\\\"text\\\" class=\\\"contact-form-text\\\" placeholder=\\\"Your name\\\">\\r\\n    <input type=\\\"email\\\" class=\\\"contact-form-text\\\" placeholder=\\\"Your email\\\">\\r\\n    <input type=\\\"text\\\" class=\\\"contact-form-text\\\" placeholder=\\\"Your phone\\\">\\r\\n    <textarea class=\\\"contact-form-text\\\" placeholder=\\\"Your message\\\"></textarea>\\r\\n    <input type=\\\"submit\\\" class=\\\"contact-form-btn\\\" value=\\\"Send\\\">\\r\\n  </form>\\r\\n</div>\\r\\n\\r\\n<footer class=\\\"footer\\\">\\r\\n  <div class=\\\"footer__left\\\">\\r\\n      &copy; blablablabla | Designed by Marius \\r\\n  </div>\\r\\n  \\r\\n  <div class=\\\"footer__right\\\">\\r\\n\\r\\n  </div>\\r\\n</footer>\\r\\n\\r\\n  <script>\\r\\n      $(\\\".gallery\\\").magnificPopup({\\r\\n        delegate:'a',\\r\\n        type: 'image',\\r\\n        gallery:{\\r\\n          enabled: true\\r\\n        }\\r\\n      });\\r\\n  </script>\\r\\n</body>\\r\\n\\r\\n</html>\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/index.hbs?");
 
 /***/ }),
 
@@ -450,7 +402,7 @@ eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtim
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_images_account_circle_24px_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/account_circle-24px.svg */ \"./src/assets/images/account_circle-24px.svg\");\n/* harmony import */ var _assets_images_background_gif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/background.gif */ \"./src/assets/images/background.gif\");\n/* harmony import */ var _assets_images_background1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/background1.jpg */ \"./src/assets/images/background1.jpg\");\n/* harmony import */ var _assets_images_portrait1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/portrait1.jpg */ \"./src/assets/images/portrait1.jpg\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _assets_images_about_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/about.jpg */ \"./src/assets/images/about.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_styles_fireplace_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/styles/fireplace.jpg */ \"./src/assets/styles/fireplace.jpg\");\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
